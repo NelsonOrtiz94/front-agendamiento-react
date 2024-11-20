@@ -1,0 +1,88 @@
+/* Estilo para el contenedor principal */
+.homepage-container {
+    background-image: url('../assets/planner-7256390_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw; /* Asegura que ocupe el ancho completo */
+    height: 100vh; /* Asegura que ocupe el alto completo */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+/* Contenido centrado */
+.content {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centrar texto */
+    max-width: 90%; /* Ajusta para pantallas pequeñas */
+}
+
+/* Título principal */
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    color: #fff; /* Asegura contraste */
+}
+
+/* Texto descriptivo */
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Verdana', sans-serif;
+    color: #f0f0f0; /* Asegura contraste */
+}
+
+/* Botón */
+.explore-button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #2f4eff;
+    transform: scale(1.05);
+}
+
+/* Media Queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2rem; /* Reduce el tamaño del título */
+    }
+
+    .content p {
+        font-size: 1rem; /* Reduce el tamaño del texto descriptivo */
+    }
+
+    .explore-button {
+        padding: 0.6rem 1rem; /* Ajusta el botón */
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        padding: 1rem; /* Reduce el padding */
+    }
+
+    .content h1 {
+        font-size: 1.8rem; /* Ajusta el tamaño del título */
+    }
+
+    .content p {
+        font-size: 0.9rem; /* Ajusta el tamaño del texto */
+    }
+}
