@@ -1,5 +1,7 @@
 # Agendamiento de Eventos - Frontend
 
+Link al proyecto: [Front agendamiento con REACT + VITE](https://front-agenda-react.netlify.app/)
+
 ## Descripción
 Este proyecto es un frontend para una aplicación de gestión de eventos que permite a los usuarios crear, editar, eliminar, y notificar eventos. La aplicación está construida con **React** y utiliza **React Router** para la navegación entre páginas.
 
