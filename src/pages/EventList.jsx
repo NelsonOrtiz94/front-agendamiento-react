@@ -99,7 +99,7 @@ const EventList = () => {
 
   const notifyEvent = (id) => {
     axiosInstance
-      .post(`/evento/${id}/notificar`)
+      .post(`/evento/${id}/notificaciones`)
       .then(() => {
         alert('Notificación enviada con éxito');
       })
